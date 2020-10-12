@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+	color: white;
+	background-image: url("./images/bg-intro-mobile.png");
+	background-color: hsl(0, 100%, 74%);
+}
+
+main {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 3rem 1rem;
+}
+
+button {
+	font-family: inherit;
+	color: inherit;
+	box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+	border-radius: 0.5rem;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+main > button {
+	height: 5rem;
+	background-color: hsl(248, 32%, 49%);
+	padding: 1rem 4rem;
+}
+
+button > span {
+	font-weight: 600;
+}
+
+header {
+	padding-top: 2rem;
+}
+
+h1 {
+	font-size: 1.5rem;
+	margin: 2rem 2rem 1.5rem;
+}
+
+h4 {
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin: 0px 3rem;
+}
+
+h1,
+h4 {
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+form {
+	display: inherit;
+	flex-direction: inherit;
+	align-items: inherit;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+	width: 100%;
+	margin: 2rem 0px;
+	padding: 1rem 1.5rem 1.5rem 1.5rem;
+	border: none;
+	box-shadow: 4px 4px 10px rgb(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+input {
+	margin: 1rem;
+	width: 100%;
+	border-radius: 5px;
+	height: 3rem;
+	border: 1px solid hsl(246, 25%, 77%);
+	padding-left: 1rem;
+	font-family: inherit;
+	font-weight: 600;
+}
+
+form > button {
+	width: 100%;
+	height: 3rem;
+	margin: 1rem;
+	background-color: hsl(154, 59%, 51%);
+	color: inherit;
+	font-weight: 600;
+	letter-spacing: 3px;
+	padding: 0px;
+}
+
+.input--error {
+	border: 2px solid hsl(0, 100%, 74%);
+}
+
+.form__span {
+	position: relative;
+	width: 100%;
+	height: 0px;
+	text-align: right;
+}
+
+.form__error {
+	color: hsl(0, 100%, 74%);
+	font-size: 0.6rem;
+	font-style: italic;
+	height: 0px;
+	position: relative;
+	top: -0.9rem;
+	width: 100%;
+}
+
+.form__span__icon {
+	position: absolute;
+	right: 2%;
+	top: -3.3rem;
+}
+
+p {
+	color: hsl(246, 25%, 77%);
+	font-size: 0.7rem;
+	margin: 0px 1.2rem;
+	text-align: center;
+}
+
+p > span {
+	color: hsl(0, 100%, 74%);
+	font-weight: 500;
+}
