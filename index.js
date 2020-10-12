@@ -35,7 +35,7 @@ const setError = (name) => {
 		? (el.innerText = "Last Name cannot be empty")
 		: name === "password"
 		? (el.innerText = "Password cannot be empty")
-		: (el.innerText = "Looks like this is not an email.");
+		: (el.innerText = "Looks like this is not an email");
 
 	document.querySelector(`.${name}`).append(el);
 	setErrorStyle(name);
