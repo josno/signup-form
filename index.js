@@ -49,15 +49,15 @@ const resetForm = (id) => {
 	}
 };
 
-submit.addEventListener("click", (e) => {
-	e.preventDefault();
-	["first", "last", "password", "email"].forEach((i) => validateInput(i));
-});
-
 const resetErrStyle = (name) => {
 	document.querySelector(`.${name}`).firstElementChild.classList.toggle("hide");
 	document.querySelector(`#${name}`).classList.remove("input--error");
 };
+
+submit.addEventListener("click", (e) => {
+	e.preventDefault();
+	["first", "last", "password", "email"].forEach((i) => validateInput(i));
+});
 
 [firstName, lastName, email, password, email].forEach((i) =>
 	i.addEventListener("click", () => {
