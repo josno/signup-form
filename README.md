@@ -1,4 +1,4 @@
-# Challenge Complete! See it [here]('https://josno.github.io/signup-form/')
+# Challenge Complete! See it [here](https://josno.github.io/signup-form/)
 
 # Frontend Mentor - Intro component with sign up form
 
